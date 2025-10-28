@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="logoy.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orfevre Landing Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #e61d79, #39e0df);
+      color: #fff;
+      text-align: center;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 40px;
+      text-align: left;
+    }
+
+    header img {
+      height: 10em;
+      width: auto;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .buttons {
+      margin-top: 60px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: transform 0.3s ease, background 0.3s ease;
+      text-decoration: none;
+    }
+
+    .btn-joki {
+      background-color: #e61d79;
+      color: white;
+    }
+
+    .btn-daftar {
+      background-color: #39e0df;
+      color: black;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      opacity: 0.9;
+    }
+
+    .jargon {
+      margin-top: 40px;
+      font-size: 1.2rem;
+      font-family: cursive;
+      opacity: 0.75;
+    }
+
+    h2 {
+      margin-top: 80px;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    .info-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+      margin: 80px auto 80px;
+      max-width: 900px;
+      padding: 0 20px;
+    }
+
+    .info-box {
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 16px;
+      padding: 40px 25px;
+      text-align: left;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .info-box:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      background: rgba(0, 0, 0, 0.25);
+      padding: 40px 20px;
+      text-align: center;
+      color: white;
+      margin-top: 50px;
+    }
+
+    .footer-container {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .footer-section h4 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    .footer-section a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .footer-section a:hover {
+      text-decoration: underline;
+    }
+
+    .disclaimer {
+      font-size: 0.9rem;
+      opacity: 0.75;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="logoy.png" alt="Logo Orfevre">
+    <h1>Harion</h1>
+  </header>
+
+  <div class="buttons">
+  
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSftI3j1N-M3SnCZk6B4pJO-REfVZ9nwbYm7Nwt6fmF4izHn-w/viewform?usp=dialog" target="_blank" class="btn btn-joki">Order Joki</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc8yZ8apa0LFF2HnbDOpHqfCzAX_obJD906TCScBp6mxYuLPQ/viewform?usp=dialog" target="_blank" class="btn btn-daftar">Daftar Mitra Joki</a>
+  </div>
+
+  <div class="jargon">Platform joki aman terpercaya – Escrow system & Anti-Scam</div>
+
+  <h2>Informasi Kami</h2>
+
+  <div class="info-container">
+    <div class="info-box">
+      <h3>Jenis Layanan</h3>
+      <ul>
+        <li>Push Rank / Leveling</li>
+        <li>Farming Item / Event</li>
+        <li>Penyelesaian Misi / Quest</li>
+        <li>Coaching & Mabar Premium</li>
+        <li>Joki Express (cepat/premium)</li>
+      </ul>
+    </div>
+
+    <div class="info-box">
+      <h3>Keunggulan Kami</h3>
+      <ul>
+        <li>Sistem Escrow → uang aman</li>
+        <li>Rating & Review → transparan</li>
+        <li>Joki berpengalaman & terverifikasi</li>
+        <li>CS siap bantu</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>Kontak</h4>
+        <p>📱 WhatsApp: <a href="https://wa.me/6281234567890" target="_blank">+62 6969696969</a></p>
+        <p>📧 Email: <a href="mailto:support@orfevre.com">OrfevreIstriGweh@gmail.com</a></p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Sosial Media</h4>
+        <p><a href="#">Instagram</a> | <a href="#">TikTok</a> | <a href="#">Discord</a></p>
+      </div>
+
+      <div class="footer-section disclaimer">
+        <p>Disclaimer: Kami bukan afiliasi resmi Mobile Legends, PUBG, Genshin, atau game lain. Semua layanan hanya berupa jasa.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

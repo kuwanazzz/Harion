@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Movie Data"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Orfevre"
+	}
+}

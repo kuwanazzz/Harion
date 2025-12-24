@@ -28,11 +28,9 @@ Fokus utama pengembangan adalah **tampilan bersih, performa ringan, dan user exp
 
 - **HTML5** – Struktur halaman
 - **CSS3** – Styling & layout (Flexbox & Grid)
-- **Vanilla JavaScript** – Micro-interactions (tanpa mengubah layout)
+- **Vanilla JavaScript** – Micro-interactions 
 - **Google Fonts** – Orbitron
 - **Vercel** – Deployment & hosting
 
 ---
-
-## 📁 Project Structure
 
